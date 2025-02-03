@@ -12,7 +12,6 @@ const containerInformaçõesVisuais = window.document.querySelector('.container-
 const SearchForm = window.document.getElementById('search')
 const SearchInput = window.document.getElementById('search-input')
 
-/* https://api.openweathermap.org/data/2.5/weather?q=São Paulo&units=metric&appid=c58f05df6f8303cd7c6dec1a9de9f47b  */
 const apiKey = 'c58f05df6f8303cd7c6dec1a9de9f47b'
 
 // Funções
