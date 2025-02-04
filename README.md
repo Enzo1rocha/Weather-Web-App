@@ -1,6 +1,6 @@
 # Aplicativo de Previsão do Tempo 🌤️
 
-Um aplicativo web simples e intuitivo que permite aos usuários pesquisar o clima de qualquer cidade utilizando a API do [OpenWeatherMap](https://openweathermap.org/). Basta inserir o nome da cidade, e o aplicativo retornará informações climáticas em tempo real, incluindo:
+Um aplicativo web simples que permite aos usuários pesquisar o clima de cidades utilizando a API do [OpenWeatherMap](https://openweathermap.org/). Basta inserir o nome da cidade, e o aplicativo retornará informações climáticas em tempo real, incluindo:
 
 - **Temperatura atual**  
 - **Temperatura máxima e mínima do dia**  
@@ -22,7 +22,7 @@ Um aplicativo web simples e intuitivo que permite aos usuários pesquisar o clim
 
 ## Como usar 🚀
 
-1. Acesse o aplicativo pelo GitHub Pages: .
+1. Acesse o aplicativo pelo GitHub Pages: [WheaterApp](https://enzo1rocha.github.io/Weather-Web-App/).
 2. Insira o nome da cidade no campo de pesquisa.
 3. Confira as informações climáticas exibidas na tela.
 
@@ -37,3 +37,5 @@ Se você quiser rodar o projeto na sua máquina, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Enzo1rocha/Weather-Web-App.git
+
+2. Rode o arquivo "index.html" com Live Server.

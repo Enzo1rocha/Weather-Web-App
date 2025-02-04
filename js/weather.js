@@ -66,11 +66,11 @@ function RenderizarDados(json) {
     const wind = window.document.getElementById('wind-value')
 
     CityTitle.textContent = `${json.city}, ${json.country}`
-    Temperature.textContent = `${Math.ceil(json.temp)} C°`
+    Temperature.innerHTML = `${Math.ceil(json.temp)}<sup>°C</sup>`
     sky.textContent = `${json.description}`
     skyimg.src = `https://openweathermap.org/img/wn/${json.icon}@2x.png`
-    maxTemp.textContent = `${Math.ceil(json.tempMax)} C°`
-    minTemp.textContent = `${Math.ceil(json.tempMin)} C°`
+    maxTemp.innerHTML = `${Math.ceil(json.tempMax)}<sup>°C</sup>`
+    minTemp.innerHTML = `${Math.ceil(json.tempMin)}<sup>°C</sup>`;
     humidity.textContent = `${json.humidity}%`
     wind.textContent = `${json.windSpeed} km/h`
     
